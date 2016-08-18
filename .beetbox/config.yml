@@ -1,0 +1,25 @@
+---
+
+# Beetbox settings.
+beet_project: drupal
+beet_domain: "localhost"
+beet_root: "{{ beet_base }}/docroot"
+beet_site_name: "Beetbox"
+beet_mysql_server: "beetbox_db_1"
+
+# Drupal settings.
+drupal_create_makefile: yes
+drupal_build_makefile: yes
+drupal_install_site: yes
+drupal_account_name: admin
+drupal_account_pass: admin
+
+# Apache settings.
+apache_global_vhost_settings: |
+  DirectoryIndex index.php index.html
+  ServerName localhost
+
+# Disable roles.
+installed_extras_avahi: no
+installed_extras_git: no
+installed_extras_nginx: no
