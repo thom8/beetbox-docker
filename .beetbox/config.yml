@@ -5,7 +5,7 @@ beet_project: drupal
 beet_domain: "localhost"
 beet_root: "{{ beet_base }}/docroot"
 beet_site_name: "Beetbox"
-beet_mysql_server: "beetbox_db_1"
+beet_mysql_server: "beetbox_db"
 
 # Drupal settings.
 drupal_create_makefile: yes
